@@ -73,7 +73,7 @@ class App extends Component {
 
         <ContactList
           contacts={this.filtredContacts()}
-          deleteCont={this.onClickDelete}
+          contactDelete={this.onClickDelete}
         />
       </MainContainer>
     );
